@@ -1,0 +1,220 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+h1 {
+font-family: 'Raleway', sans-serif;
+font-weight: bolder;
+line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+  color: white;
+  margin: 0;
+}
+
+input[type=text] {
+  width: 250px;
+  padding: 12px;
+  margin-right: 5px;
+  border-color: grey;
+  border-width: thin;
+  border-radius: 2px;
+  color: grey;
+}
+
+input[type=submit] {
+  width: 200px;
+  padding: 13px;
+  background-color: #3065f8;
+  color: white;
+  border-radius: 2px;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+/**********************************MENU*************************************/
+.menu {
+  margin: 40px 70px;
+}
+
+.features {
+  display:inline-block;
+  position: absolute;
+  right: 310px;
+}
+
+.team {
+  display:inline-block;
+  position: absolute;
+  right: 210px;
+}
+
+.sign-in {
+  display:inline-block;
+  position: absolute;
+  right: 100px;
+}
+
+/**********************************TOP CONTAINER*************************************/
+
+.top-container {
+  margin: 80px 70px;
+  padding-bottom: 115px;
+}
+
+.top-illustration-1 {
+  height: 45%;
+  width: 45%;
+  float: right;
+  margin-left: 100px;
+  margin-right: 80px;
+}
+
+.top-container-h1 {
+  padding-top: 100px;
+}
+
+.top-p {
+  margin-bottom: 30px;
+}
+
+/**********************************MEDIUM CONTAINER*************************************/
+
+.medium-curve-desktop {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.violet {
+  background-color: #f6f6fe;
+  margin: 0;
+  padding: 150px 20px;
+  border: none;
+}
+
+.medium-container {
+  margin: 0 50px;
+  background-color: #f6f6fe;
+}
+
+.medium-heading{
+  margin-top: 0;
+}
+
+.medium-illustration {
+  height: 45%;
+  width: 45%;
+  float: right;
+  margin-left: 100px;
+  margin-right: 80px;
+}
+
+.link {
+  text-decoration: none;
+  color: #3c9f8f;
+  font-size: 0.8rem;
+}
+
+.linkbox {
+  display: inline-block;
+  position: relative;
+  border-bottom: solid 1px;
+  border-color: #3c9f8f;
+  margin-bottom: 30px;
+}
+
+.medium-arrow {
+  position: relative;
+  top: 3px;
+}
+
+/**********************************TESTIMONY*************************************/
+.white-box {
+  background-color: white;
+  padding: 25px 30px;
+  width: 25%;
+  box-shadow: 2px 2px 2px rgb(191, 191, 191);
+  border-radius: 5px;
+}
+
+.testimony-avatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 10px;
+}
+
+.testimony-p {
+  font-size: 0.9rem;
+}
+
+.testimony-name {
+  font-family:'Raleway', sans-serif;
+  font-weight: bolder;
+  font-size: 0.8rem;
+  margin-bottom: 0;
+  padding-top: 5px;
+}
+
+.testimony-title {
+  font-size: 0.5rem;
+  margin-top: 1px;
+}
+
+/**********************************BOTTOM CONTAINER*************************************/
+.bottom-container {
+  background-color: #585989;
+  padding: 70px 350px 70px 70px;
+  margin: 0;
+  display: inline-block;
+  position: relative;
+}
+
+.bottom-p {
+  color: white;
+  font-size: 0.9rem;
+  font-weight: lighter;
+  width: 50%;
+}
+
+.bottom-form{
+  position: absolute;
+  right: 150px;
+  top: 120px;
+}
+
+/**********************************FOOTER*************************************/
+.footer {
+  background-color: #070439;
+  color: white;
+  padding: 70px 70px 120px 70px;
+  position: relative;
+}
+
+.logo-white {
+  filter: brightness(0) invert(1);
+}
+
+.contact {
+  margin-top: 20px;
+  font-size: 0.8rem;
+  border-spacing: 5px 1rem;
+}
+
+.images-email {
+  width: 80%;
+}
+
+.links {
+  font-size: 0.8rem;
+  position: absolute;
+  top: 140px;
+  right: 300px;
+  border-spacing: 200px 1rem;
+}
